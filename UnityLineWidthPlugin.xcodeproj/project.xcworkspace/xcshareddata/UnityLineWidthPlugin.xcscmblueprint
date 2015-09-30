@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B3F00CFF2B904F349B37D427C297EDA544F96C54",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B3F00CFF2B904F349B37D427C297EDA544F96C54" : 0,
+    "95004F0557DC9248B21C7E4CF0C20C1838477F9B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7B1FACB9-D517-4E7F-9C8B-E43E8712DC7E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B3F00CFF2B904F349B37D427C297EDA544F96C54" : "GLNative\/",
+    "95004F0557DC9248B21C7E4CF0C20C1838477F9B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UnityLineWidthPlugin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UnityLineWidthPlugin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/paraself\/ParticlePhysics2D-Unity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95004F0557DC9248B21C7E4CF0C20C1838477F9B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/paraself\/unity-linewidth-plugin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B3F00CFF2B904F349B37D427C297EDA544F96C54"
+    }
+  ]
+}

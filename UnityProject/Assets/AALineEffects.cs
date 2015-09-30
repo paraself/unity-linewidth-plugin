@@ -8,19 +8,19 @@ public class AALineEffects : MonoBehaviour
     public float
         lineWidth = 1.5f;
 
-    [DllImport ("UnityLineWidthPlugin")]
-    private static extern void UnityLineWidthPlugin_Initialize ();
+   void Start() {
+   		GLNative.Init();
+   }
 
     // Enables the line width before rendering the scene.
     void OnPreRender ()
     {
-        UnityLineWidthPlugin_Initialize ();
-        GL.IssuePluginEvent ((int)(lineWidth * 100));
+		GLNative.SetGlobalLineWidth(lineWidth);
     }
 
     // Disables the line width after rendering the scene
     void OnPostRender ()
     {
-        GL.IssuePluginEvent (0);
+        GLNative.DisableGlobalLineWidth();
     }
 }

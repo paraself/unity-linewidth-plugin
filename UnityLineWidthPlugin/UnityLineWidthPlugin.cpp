@@ -19,3 +19,15 @@ extern "C" void UnityRenderEvent(int eventID)
         glEnable(GL_LINE_SMOOTH);
     }
 }
+
+extern "C" void SetLineWidthNotInRenderEvent(float lineWidth)
+{
+    glLineWidth(lineWidth);
+    glEnable(GL_LINE_SMOOTH);
+}
+
+extern "C" void UNsetLineWidthNotInRenderEvent(float lineWidth)
+{
+    glLineWidth(1.0f);
+    glDisable(GL_LINE_SMOOTH);
+}
